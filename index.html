@@ -1,28 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>Bob Marley Trivia Game</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" rel="stylesheet">
-  </head>
-  <body>
-        <div class="row">
-                <div class="col-md-8">
-                        <h1>Bob Marley Trivia Game</h1>
+<html>
 
-                </div>
+<head>
+    <title>The White Stripes Trivia Game</title>
+</head>
+<!--BOOTSTRAP  -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Ranchers" rel="stylesheet">
+<!-- CSS link -->
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+<!-- Jquery Link -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-                </div>
-    
+<body>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+    <div class="container">
+        <div class="row"></div>
+        <div class="wins">Wins:</div>
+        <div class="losses">Losses:</div>
+        <div class="wrapper">
+            <h1>The White Stripes Trivia Game</h1>
+            <p id="timer">30</p>
+            <p id="trivQuestion"></p>
+            <div id="trivButtons"></div>
+            <p id="response"></p>
+        </div>
+    </div>
+
+
+
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+</body>
+
 </html>
